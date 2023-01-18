@@ -6,7 +6,8 @@ if mat == "more":
         mat = int(input("radius: "))
         print(math.pi*(mat**2))
     if mat == "circ":
-        print("L BOZO")
+        mat = int(input("radius: "))
+        print(2 * math.pi * mat)
 else:
     if mat == "sqrt":
         numbersqrt = int(input("Numbersqrt:"))

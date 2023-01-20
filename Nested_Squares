@@ -1,0 +1,10 @@
+boxes = int(input("Number of boxes: "))
+denom = 4**boxes
+boxes = boxes - 1
+numer = 0
+while (boxes > -1):
+    numer += 4**boxes
+    boxes = boxes -1
+print (numer)
+print (denom)
+print (numer/denom)
